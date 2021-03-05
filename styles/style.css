@@ -31,7 +31,13 @@ html {
     float: right;
 }
 
+.w-30 {
+    width: 30%;
+}
 
+.w-70 {
+    width: 70%;
+}
 /* nav */
 
 nav li {
@@ -62,7 +68,7 @@ nav li {
     padding: 10px;
 }
 
-.btn-container {
+ nav .btn-container {
     padding: 20px 5px 20px 5px;
 }
 
@@ -109,7 +115,7 @@ nav li {
 }
 
 /* main section */
-
+/* row1 */
 .main-section {
     background-color: #f4f9fd;
 }
@@ -134,4 +140,80 @@ nav li {
     font-size: 30px;
 }
 
+/* row2 */
+
+/* RIVEDERE PADDING. IMG E H3 SONO ALLA 
+STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
+
+.second-col > h3 {
+    font-size: 25px;
+    padding-top: 70px;
+}
+
+.row-main-sec-2 p {
+    padding-top: 30px;
+}
+
+.row-main-sec-2 .first-col {
+    position: relative;
+    padding: 150px 0 150px 0;
+}
+
+.row-main-sec-2 .img-btn-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.hr-h3-container > h3, .hr-h3-container > div {
+    display: inline-block;
+}
+
+.hr-h3-container {
+    width: 80%;
+    padding-top: 30px;
+}
+
+.hr-h3-container > div {
+    width: 50%;
+}
+
+.hr-container {
+    padding: 10px 0 10px 60px;
+}
+
+.hr-h3-container h3, .hr-container {
+    vertical-align: middle;
+}
+
+.cta-row-2, .check-container {
+    display: inline-block;
+}
+
+.check-container {
+    width: 20px;
+}
+
+.check-container img {
+    width: 100%;
+}
+
+.check-container, .cta-row-2 span {
+    vertical-align: middle;
+}
+
+.cta-container {
+    padding-top: 20px;
+}
+
 /* utility classes */
+
+.bg-blue {
+    background-color: cornflowerblue;
+}
+
+.bg-red {
+    background-color: red;
+}
