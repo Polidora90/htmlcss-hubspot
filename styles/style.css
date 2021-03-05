@@ -208,6 +208,50 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     padding-top: 20px;
 }
 
+/* main section row 3 */
+.row-main-sec-3 {
+    margin: 0 -20px 0 -20px;
+}
+
+.col-3 {
+    width: 33.333%;
+    padding: 20px;
+
+    min-height: 300px;
+}
+
+.col-3-content {
+    padding: 10px;
+    background-color: white;
+}
+
+.col-3-content .img-container {
+    height: 140px;
+    width: 140px;
+    margin: auto;
+}
+
+.col-3-content img {
+    height: 100%;
+}
+
+.col-3-content h3 {
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+
+.col-3-content p {
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid black;
+}
+
+.col-3-content h4 {
+    text-align: center;
+    padding-top: 40px;
+}
+
 /* utility classes */
 
 .bg-blue {
