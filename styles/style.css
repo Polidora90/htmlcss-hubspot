@@ -31,6 +31,7 @@ html {
     float: right;
 }
 
+
 /* nav */
 
 nav li {
@@ -107,6 +108,30 @@ nav li {
     background-color: #afebe4;
 }
 
+/* main section */
 
+.main-section {
+    background-color: #f4f9fd;
+}
+
+.row-main-sec-1 .img-container {
+    width: 30%;
+    margin:auto;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+
+.row-main-sec-1 img {
+    width: 100%;
+}
+
+.row-main-sec-1 h2, .row-main-sec-1 p {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.row-main-sec-1 h2 {
+    font-size: 30px;
+}
 
 /* utility classes */
