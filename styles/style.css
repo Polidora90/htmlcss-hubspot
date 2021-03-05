@@ -220,7 +220,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     min-height: 300px;
 }
 
-.col-3-content {
+.col-3-content, .row-main-sec-2 {
     padding: 10px;
     background-color: white;
 }
@@ -249,9 +249,12 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
 .col-3-content h4 {
     text-align: center;
-    padding-top: 40px;
+    padding: 40px 0 10px 0;
 }
 
+.col-3-content button {
+    margin-top: 50px;
+}
 /* utility classes */
 
 .bg-blue {
