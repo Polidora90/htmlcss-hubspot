@@ -38,6 +38,9 @@ html {
 .w-70 {
     width: 70%;
 }
+
+/* ACCORPARE PADDING E TEXT ALIGN!! */
+
 /* nav */
 
 nav li {
@@ -145,7 +148,7 @@ nav li {
 /* RIVEDERE PADDING. IMG E H3 SONO ALLA 
 STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
-.second-col > h3 {
+.second-col > h3, .section-2 h3 {
     font-size: 25px;
     padding-top: 70px;
 }
@@ -216,8 +219,6 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 .col-3 {
     width: 33.333%;
     padding: 20px;
-
-    min-height: 300px;
 }
 
 .col-3-content, .row-main-sec-2 {
@@ -255,6 +256,38 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 .col-3-content button {
     margin-top: 50px;
 }
+
+/* section 2 */
+.section-2 {
+    background-color: #00acb6;
+}
+
+.section-2 h3 {
+    margin: 0 50px 0 50px;
+   
+}
+
+.section-2 p, .section-2 h3 {
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.skill {
+    width: 25%;
+    border: 1px solid white;
+
+
+    min-height: 100px;
+}
+
+.skill .img-container {
+    margin: auto;
+    padding-top: 30px;
+    width: 127px;
+}
+
+
 /* utility classes */
 
 .bg-blue {
