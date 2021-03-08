@@ -19,10 +19,6 @@ html {
     clear: both;
 }
 
-.btn {
-    
-}
-
 .f-left {
     float: left;
 }
@@ -43,13 +39,13 @@ html {
 
 /* nav */
 
-nav li {
-    list-style: none;
-    display: inline-block;
+nav {
+    height: 80px;
+    line-height: 80px;
 }
 
-.nav-top ul a, ul:last-of-type>li:not(.btn-container) {
-    padding: 30px 15px 30px 15px;
+nav li {
+    list-style: none;
     display: inline-block;
 }
 
@@ -59,7 +55,14 @@ nav li {
 
 .nav-top ul:first-of-type > li:first-of-type {
     border-right: 1px solid black;
-    padding-right: 15px;
+}
+
+nav li:not(:last-of-type) {
+    padding-right: 20px;
+}
+
+.nav-cntct {
+    padding-left: 20px;
 }
 
 .nav-top {
@@ -67,17 +70,9 @@ nav li {
     background-color: #f4f9fd;
 }
 
-.nav-top button {
-    padding: 10px;
-}
-
- nav .btn-container {
-    padding: 20px 5px 20px 5px;
-}
-
 .logo-container {
     display: inline-block;
-    margin-top: 25px;
+    vertical-align: -webkit-baseline-middle;
 }
 
 /* Hero section  */
@@ -207,8 +202,13 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     vertical-align: middle;
 }
 
-.cta-container {
+.row-main-sec-3 .cta-container {
     padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.row-main-sec-2 .btn-container{
+    text-align: center;
 }
 
 /* main section row 3 */
@@ -257,6 +257,10 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     margin-top: 50px;
 }
 
+.row-main-sec-3 .btn-container{
+    text-align: center;
+}
+
 /* section 2 */
 .section-2 {
     background-color: #00acb6;
@@ -276,18 +280,48 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 .skill {
     width: 25%;
     border: 1px solid white;
-
-
-    min-height: 100px;
+    height: 200px;
+    position: relative;
 }
 
 .skill .img-container {
     margin: auto;
-    padding-top: 30px;
     width: 127px;
 }
 
+.skill span {
+    color: white;
+    vertical-align: middle;
+}
 
+.skill-number span:not(:nth-child(2)) {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.skill-text {
+    font-size: 12px;
+    text-align: center;
+}
+
+.skill-content {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skill-number {
+    margin: auto;
+    width: 100px;
+}
+
+.skill-content .img-container img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
 /* utility classes */
 
 .bg-blue {
