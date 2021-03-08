@@ -428,6 +428,21 @@ footer li {
     color: #32495b;
 }
 
+footer .ul-container li {
+    display: inline-block;
+    padding: 50px 10px 20px 10px;
+}
+
+footer .ul-container {
+    text-align: center;
+    border-bottom: 1px solid #dadee0;
+}
+
+.footer-foot {
+    padding: 40px 0 40px 0;
+}
+
+
 /* utility classes */
 
 .bg-blue {
