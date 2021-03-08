@@ -382,6 +382,52 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     width: 100%;
 }
 
+/* footer */
+
+.col-4 {
+    width: 25%;
+}
+
+footer {
+    background-color: #32495b;
+    color: white;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.footer-row .col-4 li:first-of-type {
+    font-weight: bold;
+    padding: 40px 0 30px 0;
+}
+
+.footer-row .col-4 li:not(:first-of-type, .footer-btn) {
+    padding-bottom: 20px;
+}
+
+.footer-row .col-4 ul>li {
+    display: inline-block;
+}
+
+.footer-row .fa {
+    color: #dadee0;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.footer-btn {
+    background-color: #dadee0;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline;
+}
+
+.footer-btn a {
+    text-decoration: none;
+    color: #32495b;
+}
+
 /* utility classes */
 
 .bg-blue {
