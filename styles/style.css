@@ -262,10 +262,14 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     vertical-align: middle;
 }
 
-.row-main-sec-3 .cta-container {
-    padding-top: 20px;
-    padding-bottom: 40px;
+.row-main-sec-3 {
+    padding: 20px 0 40px 0;
 }
+
+.cta-container {
+    padding: 20px 0 60px 0;
+}
+
 
 .row-main-sec-2 .btn-container{
     text-align: center;
@@ -282,7 +286,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 }
 
 .col-3-content {
-    padding: 10px;
+    padding: 20px 20px 40px 20px;
     background-color: white;
 }
 
@@ -307,8 +311,6 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     padding-bottom: 80px;
     border-bottom: 1px solid black;
 }
-
-
 
 .col-3-content h4 {
     text-align: center;
@@ -348,7 +350,14 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
 .skill .img-container {
     margin: auto;
-    width: 127px;
+}
+
+.skill .small-img {
+    width: 40px;
+}
+
+.large-img {
+    width: 100px;
 }
 
 .skill span {
@@ -381,7 +390,6 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
 .skill-content .img-container img {
     width: 100%;
-    height: 100%;
     object-position: center;
 }
 
@@ -392,7 +400,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 }
 
 .customers-row-1 .first-col h3 {
-    font-size: 30px;
+    font-size: 50px;
     padding-bottom: 35px;
 }
 
@@ -406,7 +414,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
 .customers-row-1 .logo-container {
     width: 25%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .customers-row-1 .col-2 img {
@@ -424,8 +432,12 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     margin-top: 30px;
 }
 
-.customers-row-2 p, .customers-row-2 h3, .customers-row-2 .btn-container {
+.customers-row-2 h3 {
     padding-bottom: 40px;
+}
+
+.customers-row-2 p, .customers-row-2 .btn-container {
+    padding-bottom: 60px;
 }
 
 .customers-row-2 .first-col {
