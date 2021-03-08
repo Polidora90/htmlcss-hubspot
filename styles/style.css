@@ -85,16 +85,19 @@ nav a {
     color: black;
 }
 
-nav .btn, .footer-btn {
-    padding:10px;
+.btn {
     border-radius: 4px;
 }
 
-nav .btn {
+nav .btn, .footer-btn {
+    padding:10px;
+}
+
+nav .btn, .hero-section .btn {
     border: 1px solid #fe775a;
 }
 
-nav .btn-orange {
+.btn-orange {
     background-color: #fe775a;
     color: white;
 }
@@ -103,6 +106,9 @@ nav .btn-light {
     color: #fe775a;
 }
 
+.btn-large {
+    padding: 20px 40px 20px 40px;
+}
 /* Hero section  */
 
 .hero-section {
@@ -122,13 +128,11 @@ nav .btn-light {
 }
 
 .hero-content p {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0 60px 0;
 }
 
 .hero-content p:last-of-type {
-    padding-top: 40px;
-    padding-bottom: 200px;
+    padding: 60px 0 180px 0;
 }
 
 /* banner */
