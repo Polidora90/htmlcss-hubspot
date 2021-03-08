@@ -34,7 +34,9 @@ html {
 .w-70 {
     width: 70%;
 }
-
+ a {
+     text-decoration: none;
+ }
 /* ACCORPARE PADDING E TEXT ALIGN!! */
 
 /* nav */
@@ -46,15 +48,14 @@ nav {
 
 nav li {
     list-style: none;
+}
+
+.nav-top ul, nav li {
     display: inline-block;
 }
 
-.nav-top ul {
-    display: inline-block;
-}
-
-.nav-top ul:first-of-type > li:first-of-type {
-    border-right: 1px solid black;
+.nav-top ul:first-of-type .nav-cntct {
+    border-left: 1px solid black;
 }
 
 nav li:not(:last-of-type) {
@@ -72,7 +73,34 @@ nav li:not(:last-of-type) {
 
 .logo-container {
     display: inline-block;
-    vertical-align: -webkit-baseline-middle;
+}
+
+.logo-container img {
+    vertical-align: middle;
+}
+
+/* link e bottoni */
+
+nav a {
+    color: black;
+}
+
+nav .btn, .footer-btn {
+    padding:10px;
+    border-radius: 4px;
+}
+
+nav .btn {
+    border: 1px solid #fe775a;
+}
+
+nav .btn-orange {
+    background-color: #fe775a;
+    color: white;
+}
+
+nav .btn-light {
+    color: #fe775a;
 }
 
 /* Hero section  */
@@ -412,19 +440,16 @@ footer li {
 
 .footer-row .fa {
     color: #dadee0;
-    text-decoration: none;
     padding-right: 15px;
 }
 
 .footer-btn {
     background-color: #dadee0;
-    padding: 10px;
-    border-radius: 4px;
+    
     display: inline;
 }
 
 .footer-btn a {
-    text-decoration: none;
     color: #32495b;
 }
 
@@ -442,13 +467,3 @@ footer .ul-container {
     padding: 40px 0 40px 0;
 }
 
-
-/* utility classes */
-
-.bg-blue {
-    background-color: cornflowerblue;
-}
-
-.bg-red {
-    background-color: red;
-}
