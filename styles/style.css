@@ -37,6 +37,10 @@ html {
  a {
      text-decoration: none;
  }
+
+ p {
+    line-height: 28px;
+}
 /* ACCORPARE PADDING E TEXT ALIGN!! */
 
 /* nav */
@@ -154,7 +158,7 @@ nav .btn-light {
     width: 30%;
     margin:auto;
     padding-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .row-main-sec-1 img {
@@ -163,11 +167,20 @@ nav .btn-light {
 
 .row-main-sec-1 h2, .row-main-sec-1 p {
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding-top: 40px;
+}
+
+.row-main-sec-1 {
+    padding-bottom: 50px;
 }
 
 .row-main-sec-1 h2 {
     font-size: 30px;
+}
+
+.row-main-sec-1 .p-container {
+    text-align: center;
+    margin: auto;
 }
 
 /* row2 */
@@ -184,6 +197,11 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     padding-top: 30px;
 }
 
+.row-main-sec-2 {
+    padding-bottom: 40px;
+    background-color: white;
+}
+
 .row-main-sec-2 .first-col {
     position: relative;
     padding: 150px 0 150px 0;
@@ -194,33 +212,43 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 70%;
 }
 
-.hr-h3-container > h3, .hr-h3-container > div {
+.row-main-sec-2 .img-container {
+    margin: auto;
+    width: 60%;
+    padding-bottom: 50px;
+}
+
+.hr-h3-container > h3, .hr-h3-container > div, .cta-row-2, .check-container {
     display: inline-block;
 }
 
 .hr-h3-container {
     width: 80%;
-    padding-top: 30px;
+    padding: 30px 0 30px 0;
 }
 
 .hr-h3-container > div {
     width: 50%;
+    margin-left: 50px;
 }
 
 .hr-container {
-    padding: 10px 0 10px 60px;
+    height: 1px;
+    background-color: black;
 }
 
 .hr-h3-container h3, .hr-container {
     vertical-align: middle;
 }
 
-.cta-row-2, .check-container {
-    display: inline-block;
+.row-main-sec-2 .second-col {
+    padding-right: 100px;
 }
+
+/* spunte arancioni */
 
 .check-container {
     width: 20px;
@@ -253,7 +281,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     padding: 20px;
 }
 
-.col-3-content, .row-main-sec-2 {
+.col-3-content {
     padding: 10px;
     background-color: white;
 }
@@ -275,10 +303,12 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
 .col-3-content p {
     text-align: center;
-    line-height: 25px;
+    /* line-height: 25px; */
     padding-bottom: 80px;
     border-bottom: 1px solid black;
 }
+
+
 
 .col-3-content h4 {
     text-align: center;
