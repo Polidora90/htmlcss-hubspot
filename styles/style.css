@@ -322,15 +322,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     height: 100%;
     object-position: center;
 }
-/* utility classes */
 
-.bg-blue {
-    background-color: cornflowerblue;
-}
-
-.bg-red {
-    background-color: red;
-}
 
 /* customers */
 .customers-row-1 .first-col {
@@ -342,7 +334,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     padding-bottom: 35px;
 }
 
-.customers-row-1 .first-col p {
+.customers-row-1 .first-col p, .customers-row-2 p {
     line-height: 25px;
 }
 
@@ -359,3 +351,43 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     width: 100%;
 }
 
+/* customers row2 */
+.customers-row-2 .first-col, .customers-row-2 .second-col {
+    display: inline-block;
+    width: 50%;
+}
+
+.customers-row-2 .first-col h3 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.customers-row-2 p, .customers-row-2 h3, .customers-row-2 .btn-container {
+    padding-bottom: 40px;
+}
+
+.customers-row-2 .first-col {
+    padding: 0px 50px 20px 0;
+}
+
+.hero-content p:last-of-type, .customers-row-2 p:last-of-type {
+    font-size: 12px;
+}
+
+.customers-row-2 .img-container {
+    width: 55%;
+}
+
+.customers-row-2 .img-container img {
+    width: 100%;
+}
+
+/* utility classes */
+
+.bg-blue {
+    background-color: cornflowerblue;
+}
+
+.bg-red {
+    background-color: red;
+}
