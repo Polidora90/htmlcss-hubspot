@@ -381,15 +381,15 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     padding: 20px 0 10px;
 }
 
-.skill .img-container, .skill-number, .skill-text {
+.skill-img, .skill-number, .skill-text {
     padding-bottom: 20px;
 }
 
-.skill-number, .skill-text, .skill .img-container {
+.skill-number, .skill-text, .skill-img {
     text-align: center;
 }
 
-.skill-content .img-container img {
+.skill-img img {
     height: 40px;
 }
 
@@ -412,7 +412,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     padding: 50px 0 50px 50px;
 }
 
-.customers-row-1 .logo-container {
+.customer-logo-container {
     width: 25%;
     padding: 20px;
 }
@@ -448,11 +448,11 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
     font-size: 12px;
 }
 
-.customers-row-2 .img-container {
+.customers-row-2 .woman-img-container {
     width: 55%;
 }
 
-.customers-row-2 .img-container img {
+.customers-row-2 .woman-img-container img {
     width: 100%;
 }
 
