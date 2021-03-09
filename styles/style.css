@@ -227,12 +227,11 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 }
 
 .hr-h3-container {
-    width: 80%;
     padding: 30px 0 30px 0;
 }
 
 .hr-h3-container > div {
-    width: 50%;
+    width: 63%;
     margin-left: 50px;
 }
 
