@@ -253,6 +253,11 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
 .check-container {
     width: 20px;
+    margin-right: 10px;
+}
+
+.row-main-sec-2 .check-container:not(:first-of-type) {
+    margin-left: 15px;
 }
 
 .check-container img {
