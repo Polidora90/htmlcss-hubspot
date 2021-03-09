@@ -345,7 +345,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 .skill {
     width: 25%;
     border-right: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
 .border-hidden {
@@ -402,12 +402,12 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 }
 
 .customers-row-1 .customers-logo {
-    padding: 50px 70px 50px 0;
+    padding: 50px 0 50px 50px;
 }
 
 .customers-row-1 .logo-container {
     width: 25%;
-    padding: 15px;
+    padding: 20px;
 }
 
 .customers-row-1 .col-2 img {
