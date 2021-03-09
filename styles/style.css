@@ -34,6 +34,7 @@ html {
 .w-70 {
     width: 70%;
 }
+
  a {
      text-decoration: none;
  }
@@ -41,7 +42,6 @@ html {
  p {
     line-height: 28px;
 }
-/* ACCORPARE PADDING E TEXT ALIGN!! */
 
 /* nav */
 
@@ -328,6 +328,7 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 /* section 2 */
 .section-2 {
     background-color: #00acb6;
+    padding-bottom: 100px;
 }
 
 .section-2 h3 {
@@ -343,21 +344,16 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
 .skill {
     width: 25%;
-    border: 1px solid white;
-    height: 200px;
-    position: relative;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
-.skill .img-container {
-    margin: auto;
+.border-hidden {
+    overflow: hidden;
 }
 
-.skill .small-img {
-    width: 40px;
-}
-
-.large-img {
-    width: 100px;
+.skill-container {
+    margin: -1px;
 }
 
 .skill span {
@@ -372,25 +368,22 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
 .skill-text {
     font-size: 12px;
-    text-align: center;
 }
 
 .skill-content {
-    width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding: 20px 0 10px;
 }
 
-.skill-number {
-    margin: auto;
-    width: 100px;
+.skill .img-container, .skill-number, .skill-text {
+    padding-bottom: 20px;
+}
+
+.skill-number, .skill-text, .skill .img-container {
+    text-align: center;
 }
 
 .skill-content .img-container img {
-    width: 100%;
-    object-position: center;
+    height: 40px;
 }
 
 
@@ -464,6 +457,9 @@ STESSA ALTEZZA, SI PUò UNIRE LA PROPRIETà */
 
 footer {
     background-color: #32495b;
+}
+
+footer, .footer-foot a {
     color: white;
 }
 
@@ -471,13 +467,21 @@ footer li {
     list-style-type: none;
 }
 
-.footer-row .col-4 li:first-of-type {
+.footer-row .col-4 li:first-of-type:not(.social-logo) {
     font-weight: bold;
     padding: 40px 0 30px 0;
 }
 
-.footer-row .col-4 li:not(:first-of-type, .footer-btn) {
+.social-logo {
+    padding-top: 15px;
+}
+
+.footer-row .col-4 li:not(:first-of-type, .footer-btn, .btn-li) {
     padding-bottom: 20px;
+}
+
+.footer-row .btn-li {
+    padding-bottom: 30px;
 }
 
 .footer-row .col-4 ul>li {
@@ -491,12 +495,8 @@ footer li {
 
 .footer-btn {
     background-color: #dadee0;
-    
-    display: inline;
-}
-
-.footer-btn a {
     color: #32495b;
+    display: inline;
 }
 
 footer .ul-container li {
@@ -512,4 +512,3 @@ footer .ul-container {
 .footer-foot {
     padding: 40px 0 40px 0;
 }
-
